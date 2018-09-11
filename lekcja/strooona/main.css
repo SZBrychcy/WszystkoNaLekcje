@@ -1,0 +1,37 @@
+body
+{
+	background-image: url(tło.jpg);
+	color: #efefef;
+    font-size: 17px;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+}
+
+.autka
+{
+	text-align: center;
+}
+
+.autka img
+{
+	width: 100%;
+	height: auto;
+}
+
+.autka p
+{
+	margin-bottom: 30px;
+}
+
+.autka figcaption
+{
+	margin-top: 8px;
+}
+
+
