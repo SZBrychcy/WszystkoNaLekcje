@@ -1,0 +1,76 @@
+body
+{
+	background: url(tło.jpg) no-repeat;
+	display: block;
+}
+
+
+div
+{
+	border: 2px solid black;    
+	margin: auto;                  
+	padding: 2px;               
+	width: 1200px;
+
+}       
+
+.plan
+{
+	width: 1190px;
+	text-align: center;
+	margin-left: 5px;
+	padding: 5px;
+	background-color: gray;
+	font-size: 20px;
+
+
+}
+
+.linia 
+{                    
+	padding: 4px 0 4px 0;    
+	border: 2px;
+	
+ }                
+
+.komorka 
+{                           
+	width: 195px;
+	padding: 5px;
+	background-color: pink;
+	display: inline-block;
+	text-align: center;
+
+}        
+
+
+@media screen and (max-width: 768px)
+{
+	.komorka
+	{
+		width: 90%;
+	}
+
+	.linia
+	{
+		width: 90%;
+	}
+	.plan
+	{
+		width: 90%;
+	}
+
+	div{
+		width: 90%;
+	}
+
+
+
+}
+
+
+
+
+
+
+
